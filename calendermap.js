@@ -10,7 +10,7 @@ var day = d3.time.format("%w"),
 	format = d3.time.format("%Y%m%d");
 	parseDate = d3.time.format("%Y%m%d").parse;
 		
-var color = d3.scale.linear().range(["white", '#002b53'])
+var color = d3.scale.linear().range(["white", '#EE3124'])
     .domain([0, 1])
     
 var svg = d3.select(".calender-map").selectAll("svg")
